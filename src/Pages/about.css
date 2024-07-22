@@ -1,0 +1,40 @@
+/* src/components/About.css */
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #05071C;
+    color: #CBACF9;
+    margin-left: 70px;
+    margin-bottom: -70px;
+  }
+  
+  .about-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  
+  .about-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: aliceblue;
+  }
+  .button-container_2{
+    margin-bottom:50px
+  }
+  
+  .Projects-button{
+    margin-left: auto;
+  }
+  
+  

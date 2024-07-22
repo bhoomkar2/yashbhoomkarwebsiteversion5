@@ -1,0 +1,135 @@
+.home-wrapper {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 120px;
+    top: 40%;
+    transform: translateY(-40%);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.photo-container {
+    margin-left:150px; /* Pushes the photo container to the extreme right */
+    flex-shrink: 0;
+}
+
+.profile-photo {
+    border: 5px solid #CBACF9;
+    width: 450px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.text-container {
+    color: #FFFFFF;
+    text-align: left;
+    margin-right: 20px;
+    line-height: 1.6;
+}
+
+.intro-text {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.text-container h1 {
+    color: #D3D3D3;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+.text-container h2 {
+    color: #CBACF9;
+    font-size: 60px;
+    font-weight: lighter;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    color: #FFFFFF;
+    margin: 0;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-container p:nth-of-type(1) {
+    font-size: 70px; /* Increased font size for GENAI ENGINEER */
+}
+
+.text-container p:nth-of-type(2) {
+    font-size: 46px; /* Increased font size for DEVELOPER */
+    color: #CBACF9;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #05071C; /* Background color */
+    color: #CBACF9; /* Text color */
+    text-decoration: none;
+    border: 2px solid #CBACF9; /* Border color */
+    border-radius:0%;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    margin-right: 60px;
+    margin-top: 50px;
+}
+
+.button:hover {
+    transform: scale(1.1); /* Increase size on hover */
+    background-color: #CBACF9;
+    color: white;
+}
+
+.button:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+@media (max-width: 600px) {
+    .home-wrapper {
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photo-container {
+        margin-right: 0;
+    }
+
+    .profile-photo {
+        width: 200px;
+        height: 300px;
+    }
+
+    .text-container h1 {
+        font-size: 16px;
+    }
+
+    .text-container h2 {
+        font-size: 40px;
+    }
+
+    .text-container p {
+        font-size: 32px; /* Adjusted font size for mobile view */
+    }
+
+    .button-container {
+        flex-direction: column; /* Stack buttons vertically on small screens */
+    }
+}
