@@ -14,7 +14,8 @@ const Navbar = () => {
       </ul>
       <div className="social-icons">
         <a href="https://www.instagram.com/yaxh_publix?igsh=cXF6a25udDIybjc0" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-        <a href="https://wa.me/9405390030" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/+919405390030" target="_blank" rel="noopener noreferrer">
+
   <i className="fab fa-whatsapp"></i>
 </a>
 
