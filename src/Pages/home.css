@@ -98,38 +98,3 @@
     transform: scale(1.1); /* Increase size on hover */
 }
 
-@media (max-width: 600px) {
-    .home-wrapper {
-        left: 10px;
-        top: 50%;
-        transform: translateY(-50%);
-        padding: 10px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .photo-container {
-        margin-right: 0;
-    }
-
-    .profile-photo {
-        width: 200px;
-        height: 300px;
-    }
-
-    .text-container h1 {
-        font-size: 16px;
-    }
-
-    .text-container h2 {
-        font-size: 40px;
-    }
-
-    .text-container p {
-        font-size: 32px; /* Adjusted font size for mobile view */
-    }
-
-    .button-container {
-        flex-direction: column; /* Stack buttons vertically on small screens */
-    }
-}
